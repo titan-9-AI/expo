@@ -12,7 +12,7 @@
     <img alt="Expo SDK version" src="https://img.shields.io/npm/v/expo.svg?style=flat-square&label=SDK&labelColor=000000&color=4630EB" />
   </a>
   <a aria-label="Chat or ask a question" href="https://chat.expo.dev" target="_blank">
-    <img alt="Chat or ask a question" src="https://img.shields.io/discord/695411232856997968.svg?style=flat-square&labelColor=000000&color=4630EB&logo=discord&logoColor=FFFFFF&label=Chat%20with%20us" />
+    <img alt="Chat or ask a question" src="https://img.shields.io/discord/695411232856997968.svg?style=flat-square&labelColor=000000&color=4630EB&logo=discord&logoColor=FFFFFF&label=Chat%20with%20[...]" />
   </a>
   <a aria-label="Expo is free to use" href="https://github.com/expo/expo/blob/main/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-success.svg?style=flat-square&color=33CC12" target="_blank" />
@@ -53,9 +53,9 @@
 
 ## Introduction
 
-Expo is an open-source platform for making universal native apps that run on Android, iOS, and the web. It includes a universal runtime and libraries that let you build native apps by writing React and JavaScript.
+Expo is an open-source platform for making universal native apps that run on Android, iOS, and the web. It includes a universal runtime and libraries that let you build native apps by writing Reac[...]
 
-This repository includes the Expo SDK, Modules API, Go app, CLI, Router, documentation, and various other supporting tools. [Expo Application Services (EAS)](https://expo.dev/eas) is a platform of hosted services that are deeply integrated with Expo open source tools. EAS helps you build, ship, and iterate on your app as an individual or a team.
+This repository includes the Expo SDK, Modules API, Go app, CLI, Router, documentation, and various other supporting tools. [Expo Application Services (EAS)](https://expo.dev/eas) is a platform of[...]
 
 Read the [Expo Community Guidelines](https://expo.dev/guidelines) before interacting in the repository. Thank you for helping keep the Expo community open and welcoming!
 
@@ -82,7 +82,7 @@ Read the [Expo Community Guidelines](https://expo.dev/guidelines) before interac
 - [`packages`](/packages) All the source code for Expo modules, if you want to edit a library or just see how it works this is where you'll find it.
 - [`apps`](/apps) This is where you can find Expo projects which are linked to the development modules. You'll do most of your testing in here.
 - [`apps/expo-go`](/apps/expo-go) This is where you can find the source code for Expo Go.
-- [`apps/expo-go/ios/Exponent.xcworkspace`](/apps/expo-go/ios) is the Xcode workspace. When developing iOS, always open this instead of `Exponent.xcodeproj` because the workspace also loads the CocoaPods dependencies.
+- [`apps/expo-go/ios/Exponent.xcworkspace`](/apps/expo-go/ios) is the Xcode workspace. When developing iOS, always open this instead of `Exponent.xcodeproj` because the workspace also loads the Co[...]
 - [`docs`](/docs) The source code for **https://docs.expo.dev**
 - [`templates`](/templates) The template projects you get when you run `npx create-expo-app`
 - [`react-native-lab`](/react-native-lab) This is our fork of `react-native` used to build Expo Go.
@@ -108,7 +108,7 @@ Let everyone know your app can be run instantly in the _Expo Go_ app!
 
 ## 👏 Contributing
 
-If you like Expo and want to help make it better then check out our [contributing guide](/CONTRIBUTING.md)! Check out the [CLI package](https://github.com/expo/expo/tree/main/packages/%40expo/cli) to work on the Expo CLI.
+If you like Expo and want to help make it better then check out our [contributing guide](/CONTRIBUTING.md)! Check out the [CLI package](https://github.com/expo/expo/tree/main/packages/%40expo/cli[...]
 
 ## ❓ FAQ
 
@@ -125,3 +125,18 @@ Curious about who makes Expo? Here are our [team members](https://expo.dev/about
 The Expo source code is made available under the [MIT license](LICENSE). Some of the dependencies are licensed differently, with the BSD license, for example.
 
 <img alt="Star the Expo repo on GitHub to support the project" src="https://user-images.githubusercontent.com/9664363/185428788-d762fd5d-97b3-4f59-8db7-f72405be9677.gif" width="50%">
+
+
+---
+
+## รันโปรเจกต์ (ตัวอย่างคำสั่งด่วน)
+
+ใช้คำสั่งด้านล่างเพื่อรันแอปด้วย Expo:
+
+```bash
+# รันบนเว็บ (เปิดในเบราว์เซอร์) — ทดสอบเร็วสุด
+npx expo start --web
+
+# รันบนมือถือจริงผ่าน Expo Go — สแกน QR ที่ขึ้นบนหน้าจอ/เทอร์มินัล
+npx expo start
+```
