@@ -146,9 +146,9 @@ const parsePackageJsonOptions = (
 /** Common commandline arguments for autolinking commands (Not to be confused with `AutolinkingOptions` */
 export interface AutolinkingCommonArguments {
   projectRoot?: string | null;
-  // NOTE(@kitten): These are added to other `searchPaths` entries
+  // NOTE: These are added to other `searchPaths` entries
   searchPaths?: string[] | null;
-  // NOTE(@kitten): These are added to other `exclude` entries
+  // NOTE: These are added to other `exclude` entries
   exclude?: string[] | null;
   platform?: SupportedPlatform | null;
 }
